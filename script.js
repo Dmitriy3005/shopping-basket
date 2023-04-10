@@ -23,7 +23,7 @@ function addPurchaseName() {
 
     //Добавили событие на значок стерки,чтобы все зачищалось
     deleteIcon.addEventListener("click", function () {
-        h2.innerHTML = "";
+        h2.remove();
     })
 
     //Добавили событие,чтобы при нажатии на поле h2, текст зачеркивался
